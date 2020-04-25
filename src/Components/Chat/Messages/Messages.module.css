@@ -1,0 +1,33 @@
+.messages{
+    flex-basis: 75%;
+    position: relative;
+    padding: 0 10px 50px 10px;
+}
+.header{
+    text-align: center;
+}
+.input{
+    margin: 0 10px;
+    width: 100%;
+}
+.form{
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 1%;
+    width: 100%;
+}
+.close{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    font-size: 36px;
+    color: #000;
+}
+.btn{
+    cursor: pointer;
+}

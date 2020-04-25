@@ -1,0 +1,12 @@
+.users{
+    flex-basis: 25%;
+    display: flex;
+    padding: 0 10px;
+    flex-direction: column;
+    background: #f5f6fa;
+    border-radius: 20px;
+}
+.header{
+    text-align: center;
+}
+

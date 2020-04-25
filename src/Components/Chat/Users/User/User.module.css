@@ -1,0 +1,29 @@
+.user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background: white;
+    padding: 7px;
+    border-radius: 10px;
+    /*opacity: 0.5;*/
+    cursor: pointer;
+}
+.active{
+    opacity: 1;
+}
+.userPhoto{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    .userPhoto{
+        width: 30px;
+        height: 30px;
+    }
+}
